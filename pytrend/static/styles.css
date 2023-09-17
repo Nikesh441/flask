@@ -1,0 +1,87 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    background-color: #86b7fe;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the form container */
+form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the label for the input field */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style the input field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the trends data section */
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Apply additional styles as needed */
+/* Apply styles to the table element */
+table {
+    width: 50%;
+    border-collapse: initial !important; /* Remove spacing between table cells */
+    margin-bottom: 20px;
+}
+
+/* Style table headers (th) */
+th {
+    background-color: #333;
+    color: #fff;
+    text-align: left !important;
+    padding: 10px;
+}
+
+/* Style table rows (tr) */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    
+}
+
+/* Style table data cells (td) */
+td {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    text-align: left !important;
+}
